@@ -6,6 +6,7 @@ Version v0.7.3 | June 22, 2020
 CC BY-NC-SA 4.0
 */
 
+
 p5.prototype._collideDebug = false;
 
 p5.prototype.collideDebug = function(debugMode){
@@ -516,3 +517,4 @@ p5.prototype.collidePointArc = function(px, py, ax, ay, arcRadius, arcHeading, a
 p5.prototype.collidePointArcVector = function(p1, a, arcRadius, arcHeading, arcAngle, buffer){
   return p5.prototype.collidePointArc(p1.x, p1.y, a.x, a.y, arcRadius, arcHeading, arcAngle, buffer);
 }
+
